@@ -1,0 +1,58 @@
+======================================================================
+             SMART NETWORK SECURITY REPORT
+======================================================================
+
+REPORT INFORMATION
+----------------------------------------------------------------------
+Generated: 2026-08-19 16:13:43
+System: Smart Network Intrusion Detector
+
+OVERALL SECURITY STATUS
+----------------------------------------------------------------------
+Status: ATTENTION REQUIRED
+Average Risk Score: 23.25/100
+
+TRAFFIC SUMMARY
+----------------------------------------------------------------------
+Total Connections     : 12
+Normal Connections    : 10
+Suspicious Connections: 2
+
+RISK SUMMARY
+----------------------------------------------------------------------
+Low Risk Connections   : 10
+Medium Risk Connections: 0
+High Risk Connections  : 2
+
+SECURITY ALERTS
+----------------------------------------------------------------------
+Total Alerts: 2
+
+Alert — Connection 9
+  Risk Score : 90/100
+  Risk Level : HIGH
+  Packet Size: 1500 bytes
+  Packets    : 95
+  Duration   : 15.5 seconds
+  Action     : Investigate the connection.
+
+Alert — Connection 10
+  Risk Score : 80/100
+  Risk Level : HIGH
+  Packet Size: 920 bytes
+  Packets    : 55
+  Duration   : 11.2 seconds
+  Action     : Investigate the connection.
+
+RECOMMENDATIONS
+----------------------------------------------------------------------
+1. Investigate all high-risk connections.
+2. Review unusually high packet activity.
+3. Verify suspicious connection durations.
+4. Perform additional security analysis before taking action.
+
+IMPORTANT NOTE
+----------------------------------------------------------------------
+This is an educational cybersecurity prototype.
+Risk scores and classifications are based on the project's synthetic dataset and prototype algorithms.
+They must not be treated as certified security detections or as a replacement for professional security monitoring.
