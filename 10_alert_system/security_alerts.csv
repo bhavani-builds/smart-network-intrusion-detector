@@ -1,0 +1,3 @@
+alert_time,connection_id,risk_score,risk_level,packet_size,packet_count,connection_duration,message
+2026-08-19 16:11:32,9,90,HIGH,1500,95,15.5,High-risk network activity detected
+2026-08-19 16:11:32,10,80,HIGH,920,55,11.2,High-risk network activity detected
